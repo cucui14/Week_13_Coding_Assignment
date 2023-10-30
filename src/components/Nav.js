@@ -1,8 +1,14 @@
+//imports React
 import React from 'react';
+//imports bootstrap css style sheet
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+//imports bootstrap js for bootstrap components
 import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 
+//exports react class component Nav
 export default class Nav extends React.Component {
+  //renders the code returns
+  //bootstrap navigation component code added
   render() {
     return (
       <nav
